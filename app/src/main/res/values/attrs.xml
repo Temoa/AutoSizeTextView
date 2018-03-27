@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoSizeTextView">
+        <attr name="atv_minTextSize" format="dimension" />
+        <attr name="atv_maxTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
