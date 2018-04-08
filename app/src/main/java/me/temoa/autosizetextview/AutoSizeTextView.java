@@ -9,7 +9,6 @@ import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.util.AttributeSet;
-import android.util.Log;
 
 /**
  * Created by lai
@@ -64,8 +63,6 @@ public class AutoSizeTextView extends AppCompatTextView {
             TypedArray ta = getContext().obtainStyledAttributes(attrs, R.styleable.AutoSizeTextView);
             mMinTextSize = ta.getDimensionPixelSize(R.styleable.AutoSizeTextView_atv_minTextSize, sp2px(12));
             mMaxTextSize = ta.getDimensionPixelSize(R.styleable.AutoSizeTextView_atv_maxTextSize, sp2px(18));
-            Log.d("Test", mMinTextSize + "");
-            Log.d("Test", mMaxTextSize + "");
             ta.recycle();
         }
     }
